@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "notion": {
+      "type": "http",
+      "url": "https://mcp.notion.com/mcp"
+    },
+    "cai-img": {
+      "type": "http",
+      "url": "${CAI_IMG_URL}/mcp",
+      "headers": { "Authorization": "Bearer ${CAI_IMG_TOKEN}" }
+    },
+    "github": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/",
+      "headers": { "Authorization": "Bearer ${GITHUB_PAT}" }
+    }
+  }
+}
